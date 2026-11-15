@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_data : mi.test.truck.bad
+{
+@include "/def/vehicle/truck/does_not_exist.sui"
+}
+}

@@ -1,0 +1,13 @@
+# Normalize text files while leaving binary files unchanged.
+* text=auto
+
+# Explicitly mark common binary project and release assets.
+*.blend binary
+*.dds binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.scs binary
+*.xlsx binary
+*.zip binary

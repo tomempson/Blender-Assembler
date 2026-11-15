@@ -1,0 +1,3 @@
+# Shared cable list, included inside a unit body (like common_trlr_cables.sui).
+	cables[]: .cable_a
+	cables[]: .cable_b

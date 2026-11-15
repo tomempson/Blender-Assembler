@@ -1,0 +1,8 @@
+SiiNunit
+{
+accessory_chassis_data : 6x2.test.truck.chassis
+{
+	name: "@@chassis_6x2@@"
+	model: "/vehicle/truck/test/chassis/chs_6x2.pmd"
+}
+}

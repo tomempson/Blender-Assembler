@@ -1,0 +1,7 @@
+SiiNunit
+{
+vehicle_lamp_setup : .lamp_setup
+{
+	composites[]: .comp_fl
+}
+}

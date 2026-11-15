@@ -1,0 +1,58 @@
+# Release bundles are built from source and attached to releases.
+/dist/
+
+# Project documentation and working notes stay outside this repository.
+/docs/
+
+# External reference repositories and extracted game data.
+/reference/
+/cache/
+/data/
+/ETS2Cache/
+**/defs/def/
+*.scs
+*.pmd
+*.pmg
+*.pma
+*.pmc
+*.pim
+*.pit
+*.pic
+*.pis
+*.pia
+*.tobj
+*.dds
+*.mat
+
+# ConverterPIX executables are downloaded separately and verified by the addon.
+/bin/
+/converter_pix
+/converter_pix.exe
+
+# Python and test-runner output.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.venv/
+venv/
+
+# Local Blender files and backups.
+*.blend
+*.blend1
+*.blend@
+
+# Keep hand-written and self-generated fixtures even when they use game file extensions.
+!tests/fixtures/
+!tests/fixtures/**/
+!tests/fixtures/**
+
+# Keep generated Python bytecode out of fixture directories too.
+tests/fixtures/**/__pycache__/
+tests/fixtures/**/*.py[cod]
+
+# One-off development spikes use local game-specific setup and are not part of the public source.
+/tools/spikes/

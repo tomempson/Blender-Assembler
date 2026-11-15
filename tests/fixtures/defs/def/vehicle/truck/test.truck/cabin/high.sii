@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_cabin_data : high.test.truck.cabin
+{
+	name: "@@cabin_high@@"
+	model: "/vehicle/truck/test/cabin/cab_high.pmd"
+	collision: "/vehicle/truck/test/cabin/cab_high.pmc"
+	variant: Default
+	variant_uk: uk
+	suitable_for[]: "4x2.test.truck.chassis"
+}
+}

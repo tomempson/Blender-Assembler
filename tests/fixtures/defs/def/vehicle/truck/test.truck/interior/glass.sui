@@ -1,0 +1,4 @@
+glass_pane_data : .pane.front
+{
+	normal: (0, 0, 1)
+}

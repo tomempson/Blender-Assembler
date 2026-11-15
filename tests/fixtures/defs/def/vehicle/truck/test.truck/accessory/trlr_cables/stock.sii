@@ -1,0 +1,9 @@
+SiiNunit
+{
+accessory_addon_trailer_cables_data : stock.test.truck.trlr_cables
+{
+	exterior_model: "/vehicle/truck/test/acc/trlr_cables/stock.pmd"
+@include "/def/vehicle/truck/common_cables.sui"
+}
+@include "/def/vehicle/truck/common_cables_data.sui"
+}

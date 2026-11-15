@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_transmission_data : t1.test.truck.transmission
+{
+	name: "@@gearbox_1@@"
+}
+transmission_names : .names
+{
+	neutral: "N"
+}
+}

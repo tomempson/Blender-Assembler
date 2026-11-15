@@ -1,0 +1,68 @@
+SiiNunit
+{
+vehicle : .truck {
+	accessories[]: .data
+	accessories[]: .chassis
+	accessories[]: .cabin
+	accessories[]: .engine
+	accessories[]: .transm
+	accessories[]: .interior
+	accessories[]: .f_bumper
+	accessories[]: .l_horn
+	accessories[]: .toyhang
+	accessories[]: .badge
+	accessories[]: .f_tire
+	accessories[]: .paint
+	accessories[]: .bumper2
+	accessories[]: .gone
+	accessories[]: .other
+	accessories[]: .ghost
+}
+vehicle_accessory : .data {
+	data_path: "/def/vehicle/truck/test.truck/data.sii"
+}
+vehicle_accessory : .chassis {
+	data_path: "/def/vehicle/truck/test.truck/chassis/4x2.sii"
+}
+vehicle_accessory : .cabin {
+	data_path: "/def/vehicle/truck/test.truck/cabin/high.sii"
+}
+vehicle_accessory : .engine {
+	data_path: "/def/vehicle/truck/test.truck/engine/e1.sii"
+}
+vehicle_accessory : .transm {
+	data_path: "/def/vehicle/truck/test.truck/transmission/t1.sii"
+}
+vehicle_accessory : .interior {
+	data_path: "/def/vehicle/truck/test.truck/interior/int_a.sii"
+}
+vehicle_addon_accessory : .f_bumper {
+	data_path: "/def/vehicle/truck/test.truck/accessory/f_bumper/a.sii"
+}
+vehicle_addon_accessory : .l_horn {
+	data_path: "/def/vehicle/truck/test.truck/accessory/l_horn/horn.sii"
+}
+vehicle_addon_accessory : .toyhang {
+	data_path: "/def/vehicle/truck/test.truck/accessory/toyhang/fresh.sii"
+}
+vehicle_addon_accessory : .badge {
+	data_path: "/def/vehicle/truck/test.truck/badge/b1.sii"
+}
+vehicle_wheel_accessory : .f_tire {
+	offset: 0
+	data_path: "/def/vehicle/f_tire/1.sii"
+}
+vehicle_paint_job_accessory : .paint {
+	base_color: (0.4, 0.5, 1.0)
+	data_path: "/def/vehicle/truck/test.truck/paint_job/color0.sii"
+}
+vehicle_addon_accessory : .bumper2 {
+	data_path: "/def/vehicle/truck/test.truck/accessory/f_bumper/b.sii"
+}
+vehicle_addon_accessory : .gone {
+	data_path: "/def/vehicle/truck/test.truck/accessory/f_bumper/nope.sii"
+}
+vehicle_addon_accessory : .other {
+	data_path: "/def/vehicle/truck/other.truck/accessory/x/y.sii"
+}
+}

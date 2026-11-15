@@ -1,0 +1,9 @@
+SiiNunit
+{
+accessory_horn_addon_data : ahooga.test.truck.l_horn
+{
+	name: "@@horn_ahooga@@"
+	exterior_model: "/vehicle/truck/upgrade/horn/ahooga.pmd"
+	sound_path: "/sound/horn/ahooga.soundref"
+}
+}

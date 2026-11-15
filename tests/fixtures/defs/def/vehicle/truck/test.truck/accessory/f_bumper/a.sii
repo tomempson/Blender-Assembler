@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_data : a.test.truck.f_bumper
+{
+	name: "@@bumper_a@@"
+	exterior_model: "/vehicle/truck/test/acc/f_bumper/a.pmd"
+	exterior_model_uk: "/vehicle/truck/test/acc/f_bumper/a_uk.pmd"
+	coll: "/vehicle/truck/test/acc/f_bumper/a.pmc"
+	look: chrome
+	variant: v1
+}
+}

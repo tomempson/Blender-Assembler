@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_interior_data : int_a.test.truck.interior
+{
+	name: "@@interior_a@@"
+	model: "/vehicle/truck/test/interior/int_a.pmd"
+	ext_model: "/vehicle/truck/test/interior/int_a_ext.pmd"
+	ext_variant: ext_default
+	ext_look: Black
+	look: black
+	variant: default
+	collision: "/vehicle/truck/test/interior/int_a.pmc"
+	glass_panes[]: .pane.front
+}
+@include "glass.sui"
+}

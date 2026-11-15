@@ -1,0 +1,19 @@
+SiiNunit
+{
+accessory_chassis_data : 4x2.test.truck.chassis
+{
+	name: "@@chassis_4x2@@"
+	part_type: factory
+	model: "/vehicle/truck/test/chassis/chs_4x2.pmd"
+	collision: "/vehicle/truck/test/chassis/chs_4x2.pmc"
+	variant: default
+	look: default
+	kerb_weight[]: 5650
+	kerb_weight[]: 1928
+	defaults[]: "/def/vehicle/truck/test.truck/cabin/low.sii"
+	defaults[]: "/def/vehicle/truck/test.truck/accessory/f_bumper/a.sii"
+	defaults[]: "/def/vehicle/truck/test.truck/paint_job/color0.sii"
+	defaults[]: "/def/vehicle/truck/test.truck/accessory/f_bumper/nope.sii"
+@include "sound.sui"
+}
+}

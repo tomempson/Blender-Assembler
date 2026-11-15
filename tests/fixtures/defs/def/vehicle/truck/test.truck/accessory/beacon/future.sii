@@ -1,0 +1,11 @@
+SiiNunit
+{
+accessory_addon_future_data : future.test.truck.beacon
+{
+	exterior_model: "/vehicle/truck/upgrade/beacon/future.pmd"
+}
+mystery_data : .mystery
+{
+	foo: bar
+}
+}

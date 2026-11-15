@@ -1,0 +1,10 @@
+# Shared local units, included at file level (like common_trlr_cables_data.sui).
+trailer_cable_data : .cable_a
+{
+	vehicle_plug_model: "/vehicle/share/plug_a.pmd"
+	color: (0.5, 0.4, 0.1)
+}
+trailer_cable_data : .cable_b
+{
+	vehicle_plug_model: "/vehicle/share/plug_b.pmd"
+}

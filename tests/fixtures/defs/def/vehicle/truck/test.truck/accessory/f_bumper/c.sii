@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_data : c.test.truck.r_bumper
+{
+	name: "@@bumper_c@@"
+}
+}

@@ -1,0 +1,4 @@
+# Count followed by [] appends, as in the real cabin/sound.sui
+	sounds:2
+	sounds[]: "horn|/def/vehicle/truck/test.truck/sound_horn.soundref"
+	sounds[]: "aero_noise|/sound/truck/default/noise_aero.soundref"

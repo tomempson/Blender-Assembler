@@ -1,0 +1,12 @@
+SiiNunit
+{
+accessory_addon_painted_data : stock.test.truck.r_chs_cover
+{
+	name: "@@cover_stock@@"
+	exterior_model: "/vehicle/truck/test/acc/r_chs_cover/stock.pmd"
+	default_color: (0.0097, 0.0097, 0.0097)
+	suitable_for[]: "e1.test.truck.engine"
+	suitable_for[]: "*.test.truck.transmission"
+	suitable_for[]: "racing.test.truck.paint_job"
+}
+}

@@ -1,0 +1,8 @@
+SiiNunit
+{
+accessory_engine_data : e1.test.truck.engine
+{
+	name: "@@engine_1@@"
+	torque: 2000
+}
+}

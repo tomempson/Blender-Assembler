@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_data : good.test.truck.bad
+{
+	exterior_model: "/vehicle/truck/test/acc/bad/good.pmd"
+}
+}

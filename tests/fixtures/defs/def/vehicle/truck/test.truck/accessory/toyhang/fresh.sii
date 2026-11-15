@@ -1,0 +1,16 @@
+SiiNunit
+{
+accessory_addon_int_data : fresh.test.truck.toyhang
+{
+	name: "@@toy_fresh@@"
+	interior_model: "/vehicle/truck/upgrade/toy/fresh.pmd"
+	exterior_model: "/vehicle/truck/upgrade/toy/fresh.pmd"
+	data: .fresh.phys_data
+}
+physics_toy_data : .fresh.phys_data
+{
+	toy_type: "TT_rope"
+	phys_model: "/vehicle/truck/upgrade/toy/fresh_phys.pmd"
+	locator_hook_offset: (0.0f, -0.008f, 0.0f)
+}
+}

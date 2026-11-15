@@ -1,0 +1,8 @@
+SiiNunit
+{
+accessory_cabin_data : low.test.truck.cabin
+{
+	name: "@@cabin_low@@"
+	model: "/vehicle/truck/test/cabin/cab_low.pmd"
+}
+}

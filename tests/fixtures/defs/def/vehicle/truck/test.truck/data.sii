@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_truck_data : vehicle.test.truck
+{
+	info[]: "@@brand_test@@"
+	behind_camera: camera.behind.basic
+	fallback[]: "chassis|4x2.sii"
+	fallback[]: "cabin|low.sii"
+	fallback[]: "accessory|f_bumper/a.sii"
+	fallback[]: "f_tire|1.sii"
+	require[]: f_bumper
+	require[]: mirror
+}
+}

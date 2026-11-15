@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data :  b.test.truck.f_bumper
+{
+	name: "@@bumper_b@@"
+	exterior_model: "/vehicle/truck/test/acc/f_bumper/b.pmd"
+	suitable_for[]: "*.test.truck.cabin"
+	suitable_for[]: "ghost.test.truck.f_bumper"
+	conflict_with[]: "a.test.truck.f_bumper"
+	conflict_with[]: "*.test.truck.nothing"
+	overrides[]: "/def/vehicle/truck/test.truck/accessory/f_bumper/a.sii"
+}
+}
